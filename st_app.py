@@ -499,7 +499,7 @@ def ats_only_check():
     </div>
     """, unsafe_allow_html=True)
     
-    uploaded_file = st.file_uploader("Upload your resume (PDF or DOCX format)", type=["pdf", "docx"], key="ats_only_uploader")
+    uploaded_file = st.file_uploader("Upload your resume (PDF  format)", type=["pdf"], key="ats_only_uploader")
     
     if uploaded_file is not None:
         analyze_button = st.button("Analyze Resume", key="ats_only_btn")
@@ -528,7 +528,7 @@ def job_match_check():
     </div>
     """, unsafe_allow_html=True)
     
-    uploaded_file = st.file_uploader("Upload your resume (PDF or DOCX format)", type=["pdf", "docx"], key="job_match_uploader")
+    uploaded_file = st.file_uploader("Upload your resume (PDF  format)", type=["pdf"], key="job_match_uploader")
     
     st.markdown("<h3 class='section-header'>Job Description</h3>", unsafe_allow_html=True)
     job_description = st.text_area("Paste the job description here", height=200)
