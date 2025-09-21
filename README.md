@@ -7,4 +7,4 @@
 
 ## 🎥 BackendCode Repo
 
-**Repo Link:** [Repo Link](https://github.com/LearnCode801/ATS_App)
+**Repo Link:** [Repo Link](https://github.com/LearnCode801/ATS_AI_API/)
